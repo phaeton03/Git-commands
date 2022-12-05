@@ -588,3 +588,10 @@ git log --all --decorate --oneline --graph
 # показ 5 последних коммитов автора cbeams до обозначенной даты
 git log --oneline -5 --author cbeams --before "Fri Mar 26 2009"
 ```
+
+#To tell Git to use it as the default message that appears in your editor when you run git commit, set the commit.template configuration value:
+
+```
+git config --global commit.template ~/.gitmessage.txt
+git commit
+```
