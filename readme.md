@@ -589,9 +589,16 @@ git log --all --decorate --oneline --graph
 git log --oneline -5 --author cbeams --before "Fri Mar 26 2009"
 ```
 
-#To tell Git to use it as the default message that appears in your editor when you run git commit, set the commit.template configuration value:
+# To tell Git to use it as the default message that appears in your editor when you run git commit, set the commit.template configuration value:
 
 ```
 git config --global commit.template ~/.gitmessage.txt
 git commit
 ```
+
+## BugTracker к коммиту
+```
+Replace jQuery onReady listener with plain JS; fixes #1357
+```
+
+[19 советов по работе с Гитом](https://habr.com/ru/company/vk/blog/267595/)
