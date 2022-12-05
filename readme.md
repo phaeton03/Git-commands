@@ -585,4 +585,6 @@ git commit -am "Navigation fixs"   # сделать коммит
 Показ коммитов в одну строчку 
 ```
 git log --all --decorate --oneline --graph
+# показ 5 последних коммитов автора cbeams до обозначенной даты
+git log --oneline -5 --author cbeams --before "Fri Mar 26 2009"
 ```
