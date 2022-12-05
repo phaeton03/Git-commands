@@ -579,3 +579,10 @@ git commit -am "Navigation fixs"   # сделать коммит
 *.css  diff=css
 *.scss diff=css
 ```
+
+## Формат гит коммитов
+
+Показ коммитов в одну строчку 
+```
+git log --all --decorate --oneline --graph
+```
